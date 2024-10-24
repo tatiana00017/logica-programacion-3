@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+.titulo {
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.entrada-numero {
+    text-align: center;
+}
+.entrada-numero h2{
+    display:inline-block;
+    color: rgb(255, 0, 191);
+}
+.entrada-numero textarea {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    margin-top: 20PX;
+    font-size: 30px;
+}
+.bt {
+    padding: 15px;
+}
+.entrada-numero button {
+    height: 40px;
+    width: 90px;
+    background-color: rgb(74, 170, 74);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px;
+}
+.entrada-numero button:hover {
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+.resultado {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
